@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    const numberOfBots = 100000; // Number of bots to create
+    const numberOfBots = 1; // Number of bots to create
     const customName = "CustomBot"; // Custom name for the bots
     const customBlook = "BlookName"; // Custom blook name
 
