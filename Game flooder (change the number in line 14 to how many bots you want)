@@ -1,0 +1,27 @@
+// ==UserScript==
+// @name         Blooket Bot Flooder
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Flood Blooket game with bots
+// @author       You
+// @match        *://*.blooket.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    const numberOfBots = 100000; // Number of bots to create
+    const customName = "CustomBot"; // Custom name for the bots
+    const customBlook = "BlookName"; // Custom blook name
+
+    function createBot() {
+        // Logic to create a bot with custom name and blook
+        // This is a placeholder for the actual implementation
+        console.log(`Creating bot: ${customName} with blook: ${customBlook}`);
+    }
+
+    for (let i = 0; i < numberOfBots; i++) {
+        createBot();
+    }
+})();
