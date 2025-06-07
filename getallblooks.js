@@ -1,4 +1,4 @@
-// This code is for educational purposes only and should not be used to hack or exploit any platform.
+
 
 (async function hackBlooket() {
     const blooks = await fetch('https://api.blooket.com/api/users/me', {
